@@ -1,0 +1,53 @@
+.att-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.att-icon > img {
+    width: 5vw;
+    background-color: var(--cor-principal-1);
+    border-radius: 50%;
+    padding: 1%;
+    box-shadow: 1px 1px 2px var(--cor-principal-6);
+    padding:5%;
+}
+
+.att-icon > p {
+    color: var(--cor-principal-6);
+    width: 100%;
+    margin: 5% 0;
+    font-family: 'montserrat';
+}
+
+@media(max-width:900px){
+    .att-icon{
+        margin: 5%;
+        width: 20vw;
+        height: 20vh;
+    }
+    .att-icon > img{
+        width: 10vw;
+    }
+
+}
+
+@media (max-width:850px) {
+    .att-icon > p {
+        font-size: 0.9rem;
+        height: 15vh;
+    }
+}
+
+@media(max-width:670px){
+    .att-icon > img{
+        width: 10vw;
+    }
+    .att-icon > p {
+        font-size: 0.7rem;
+        height: 10vh;
+    }
+}

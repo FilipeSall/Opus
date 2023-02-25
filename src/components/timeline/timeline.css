@@ -1,0 +1,22 @@
+.timeline--element{
+    color: var(--cor-principal-6);
+    font-family: 'montserrat';
+}
+
+.timeline-title{
+    font-family: montserrat;
+}
+
+.timeline-date{
+    color: var(--cor-principal-6);
+    font-family: 'montserrat';
+    font-weight: normal;
+}
+
+.timeline-local{
+    font-family: 'montserrat';
+}
+
+.timeline-link{
+    color: inherit;
+}

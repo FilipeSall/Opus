@@ -1,0 +1,59 @@
+.linkButton{
+    color: var(--cor-branca-1);
+    padding: 8px;
+    margin: 1%;
+    flex-wrap: wrap;
+    background-color: var(--cor-destaque-4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 10vw;
+    height: 6vh;
+    font-family: montserrat;
+    text-align: center;
+}
+
+.contactButton{
+    border: none;
+    cursor: pointer;
+    background-color: var(--cor-destaque-3);
+    color: var(--cor-branca-1);
+    padding: 3%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height:7vh;
+    font-family:montserrat;
+    font-size: 1.5rem;
+    box-shadow:0px 0px 5px var(--cor-destaque-3);
+}
+
+@media (max-width: 900px){
+   .linkButton{
+    width: 25vw;
+    height: 8vh;
+   }
+}
+
+@media (max-width: 1000px){
+    .linkButton,
+    .contactButton{
+       width: 25vw;
+    }
+}
+
+@media(max-width:850px){
+    .contactButton{
+      width: 20vw;
+      margin-bottom: 5%;
+    }
+}
+
+@media(max-width:700px){
+    .contactButton{
+      width: 30vw;
+    }
+}

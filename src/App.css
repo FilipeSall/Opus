@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'satisfy';
+    src: url(../src/assets/fonts/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../src/assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(../src/assets/fonts/Montserrat-Medium.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-weight: normal;
+}
+
+:root{
+    --cor-preto-absoluto: #000000;
+    --cor-preto-1: #0B0C12;
+    --cor-preto-2: #242833;
+    --cor-preto-3: #363B47;
+    --cor-preto-4: #474D59;
+    --cor-preto-5: #636973;
+    --cor-preto-6: #7E838C;
+
+    --cor-branca-absoluta:#FFFFFF;
+    --cor-branca-1:#F5F7FA;
+    --cor-branca-2:#E6EAF0;
+    --cor-branca-3:#CED3D9;
+    --cor-branca-4:#C0C5CC;
+    --cor-branca-5:#B2B8BF;
+    --cor-branca-6:#989EAC;
+
+    --cor-destaque-1:#FF4D00;
+    --cor-destaque-2:#E45619;
+    --cor-destaque-3:#C75B2C;
+    --cor-destaque-4:#AD5F3D;
+    --cor-destaque-5:#966048;
+    --cor-destaque-6:#7C5848;
+    --cor-destaque-7:#634E45;
+
+    --cor-principal-1:#EEDDBB;
+    --cor-principal-2:#CFB88B;
+    --cor-principal-3:#B59B68;
+    --cor-principal-4:#9D834F;
+    --cor-principal-5:#816633;
+    --cor-principal-6:#664D1E;
+    --cor-principal-7:#513A10;
+
+    --cor-complementar-1:#3C3D2D;
+    --cor-complementar-2:#595B3A;
+    --cor-complementar-3:#7E8246;
+    --cor-complementar-4:#9CA336;
+    --cor-complementar-5:#BBC622;
+    --cor-complementar-6:#c3d6169f;
+
+    --cor-variavel-1:#111111;
+    --cor-variavel-2:#292626;
+    --cor-variavel-3:#3D3333;
+    --cor-variavel-4:#543D3D;
+    --cor-variavel-5:#664242;
+
+    --cor-alternativa-1:#FCF7F1;
+    --cor-alternativa-2:#eedfcc;
+    --cor-alternativa-3:#d8c2a8;
+    --cor-alternativa-4:#c5a988;
+
+    --cor-dropdown-1:#188497;
+    --cor-dropdown-2:#2c97aa;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-branca-1);
+}
+
+.emphasis-color{
+    color:var(--cor-destaque-3);
+}
+
+.icon{
+    color:var(--cor-branca-1);
+    font-weight:bold;
+    
+}
+
+@media (max-width:920px) {
+    body{
+        width: fit-content;
+        height: fit-content;
+    }
+}

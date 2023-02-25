@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/FilipeSall/Opus-site.git/static/css/main.8b19c475.css",
+    "main.js": "/FilipeSall/Opus-site.git/static/js/main.b8605179.js",
+    "static/js/787.e463b3d4.chunk.js": "/FilipeSall/Opus-site.git/static/js/787.e463b3d4.chunk.js",
+    "static/media/perfil.png": "/FilipeSall/Opus-site.git/static/media/perfil.3cdaad59b82e0ea4afc2.png",
+    "static/media/Montserrat-Medium.ttf": "/FilipeSall/Opus-site.git/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/Roboto-Regular.ttf": "/FilipeSall/Opus-site.git/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Satisfy-Regular.ttf": "/FilipeSall/Opus-site.git/static/media/Satisfy-Regular.32a6713537cf5e1e82f2.ttf",
+    "static/media/canto.svg": "/FilipeSall/Opus-site.git/static/media/canto.7a6936af2628a36044f17f36d32e907d.svg",
+    "index.html": "/FilipeSall/Opus-site.git/index.html",
+    "static/media/piano.svg": "/FilipeSall/Opus-site.git/static/media/piano.45d6b68792a28f5feb1b11d098b4d781.svg",
+    "static/media/smartphone.svg": "/FilipeSall/Opus-site.git/static/media/smartphone.9cf9b41950733b815e6f95201597d9f1.svg",
+    "static/media/aula.svg": "/FilipeSall/Opus-site.git/static/media/aula.fd55548f8bf46f34904e1f1d792e49db.svg",
+    "static/media/musicicon.svg": "/FilipeSall/Opus-site.git/static/media/musicicon.34360772dd9181f26ee9614ebd98343f.svg",
+    "main.8b19c475.css.map": "/FilipeSall/Opus-site.git/static/css/main.8b19c475.css.map",
+    "main.b8605179.js.map": "/FilipeSall/Opus-site.git/static/js/main.b8605179.js.map",
+    "787.e463b3d4.chunk.js.map": "/FilipeSall/Opus-site.git/static/js/787.e463b3d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b19c475.css",
+    "static/js/main.b8605179.js"
+  ]
+}
