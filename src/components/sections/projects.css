@@ -61,7 +61,7 @@
 
 
 @media (max-width: 820px) and (max-height:1180px) {
-    .project__info-container{
+    .project__info-container > h2{
         width: 90vw;
     }
   }
@@ -76,5 +76,11 @@
 @media (max-width:1024px) and (max-height:600px){
     .projects__title-container > h1{
         font-size: 2rem;
+    }
+}
+
+@media (max-width:320px){
+    .projects__title-container{
+        height: 15vh;
     }
 }

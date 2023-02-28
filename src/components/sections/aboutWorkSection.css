@@ -40,6 +40,7 @@
 @media (max-width:912px) and (max-height:1368px){
      .about__work-title{
         border-radius: 0;
+        
     }
     .aboutWork-content > h2,
     .aboutWork-content > p{
@@ -58,7 +59,9 @@
 @media(max-width:900px){
     .about__work-title{
         border-radius: 0;
+      
     }
+    
 }
 
 @media (max-width:400px) and (max-height:1560px){
@@ -66,4 +69,8 @@
         margin: 0;
         padding: 0;
     }  
+    .about__work-title{
+        font-size: 1rem;
+    }
 }
+
