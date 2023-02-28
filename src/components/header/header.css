@@ -57,6 +57,7 @@
         width: 100vw;
         height: max-content;
         flex-wrap: wrap;
+        padding: 5px;
     }
 }
 
@@ -69,9 +70,11 @@
 @media (max-width:400px) and (max-height:1560px){
     .header__container{
         width: 100%;
+        padding:10px;
     }
     .header__container > h1 {
         font-size: 2rem;
+        margin: 5px;
     }
 }
 
