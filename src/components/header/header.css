@@ -55,6 +55,7 @@
 @media (max-width: 670px){
     .header__container{
         width: 100vw;
+        height: max-content;
         flex-wrap: wrap;
     }
 }
@@ -64,4 +65,14 @@
         text-align: center;
     }
 }
+
+@media (max-width:400px) and (max-height:1560px){
+    .header__container{
+        width: 100%;
+    }
+    .header__container > h1 {
+        font-size: 2rem;
+    }
+}
+
 
