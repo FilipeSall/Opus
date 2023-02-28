@@ -15,11 +15,11 @@ function AboutWorkSection() {
  const props = useSpring();
 
   return (
-    <section className="aboutWork__container">
-      <div className="aboutWork-title" id="sobre-aula">
+    <section className="container" id="sobre-aula">
+      <div className="title about__work-title">
         <h1>Aula</h1>
       </div>
-      <div className="aboutWork-content">
+      <div className="aboutWork-content content">
         <h2>Como funcionam as minhas aulas</h2>
         <p>
         As aulas são regulares, com frequência semanal. O acompanhamento é realizado por meio do WhatsApp para monitorar a prática e o progresso do aluno. As aulas podem ser ministradas na residência do professor ou do aluno, desde que este último possua os instrumentos necessários.

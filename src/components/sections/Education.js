@@ -6,11 +6,11 @@ function Education() {
 
 
   return (
-    <section className='education__container' id='formacao'>
-        <div className='education__title-container'>
+    <section className='container' id='formacao'>
+        <div className='education__title-container title'>
             <h1>Formação</h1>
         </div>
-        <div className='education__content'>
+        <div className='education__content content'>
             <Timeline />
         </div>
     </section>

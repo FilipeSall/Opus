@@ -42,11 +42,11 @@ function Projects() {
     const props = useSpring();
 
   return (
-    <section className='projects__container' id='projetos'>
-        <div className='projects__title-container'>
+    <section className='container' id='projetos'>
+        <div className='projects__title-container title'>
             <h1>Projetos</h1>
         </div>
-        <div className='projects__content'>
+        <div className='projects__content content'>
             {
                 projetos.map((projeto, index)=>(
                     <animated.div key={index} style={props} className='project__info-container'>

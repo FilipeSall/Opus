@@ -47,11 +47,11 @@ function Experience() {
   ]
 
   return (
-    <section className="experience__container" id="experiencia">
-      <div className="experience__title-container">
+    <section className="container" id="experiencia">
+      <div className="experience__title-container title">
         <h1>Experiência</h1>
       </div>
-      <div className="experience__content">
+      <div className="experience__content content">
           {dropdowns.map((dropdown, index) => (
             <div className="experience__dropdown" key={index}>
               <h2 className='dropdown-title' onClick={dropdown.function}>{dropdown.title}{dropdown.state ? <IoMdArrowDropup size="40" /> : <IoMdArrowDropdown size="40" />}</h2>
