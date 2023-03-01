@@ -49,6 +49,10 @@
     margin: 5% 5% 10% 0;
 }
 
+.img__group-device{
+    display: none;
+}
+
 @media (max-width:912px) and (max-height:1368px){
     .intro__section{
         width: 100vw;
@@ -65,6 +69,14 @@
         padding:5% ;
         font-size: 4rem;
     }   
+
+    .img__group-device{
+        display: block;
+        width: 95vw;
+        margin:5% 0;
+        border-radius: 5px;
+        box-shadow: 0 5px 3px var(--cor-principal-1);
+    }
 
     .intro__section-title::before{
         width: 77px;
@@ -84,6 +96,7 @@
     }
 }
 
+/* tamanho padrao celular grande */
 @media (max-width:750px){
     .intro__section-img-container > img{
         display: none;
@@ -101,6 +114,7 @@
     }
 }
 
+/* tamanho ipad duas direções */
 @media (max-width:1024px) and (max-height:600px){
     .intro__section{
         height: max-content;
@@ -108,6 +122,40 @@
     }
 }
 
+@media (max-width:768px) and (max-height:1024px){
+    .img__group-device{
+        display: none;
+    }
+    
+    .img__group-device{
+        display: block;
+        width: 95vw;
+        margin:5% 0;
+        border-radius: 5px;
+        box-shadow: 0 5px 3px var(--cor-principal-1);
+    }
+}
+
+/*ipad air*/
+@media(max-width:820px) and (max-height:1200px){
+    .img__group-device{
+      display: none;
+    }
+}
+
+/*surface-duo*/
+@media(max-width:540px) and (max-height:720px){
+    .img__group-device{
+        display: block;
+        width: 95vw;
+        margin:5% 0;
+        border-radius: 5px;
+        box-shadow: 0 5px 3px var(--cor-principal-1);
+    }
+}
+
+
+/* aparelhos com width baixo mais height alto */
 @media (max-width:400px) and (max-height:1560px){
     .intro__section{
         width: 100%;
@@ -115,6 +163,50 @@
 
     .intro__section-title {
         font-size: 3rem;
+    }
+    .img__group-device{
+        display: block;
+        width: 95vw;
+        margin:5% 0;
+        border-radius: 5px;
+        box-shadow: 0 5px 3px var(--cor-principal-1);
+    }
+}
+
+/*galaxya51/71*/
+@media (max-width:412px) and (max-height:914px){
+    .img__group-device{
+        display: block;
+        width: 95vw;
+        margin:5% 0;
+        border-radius: 5px;
+        box-shadow: 0 5px 3px var(--cor-principal-1);
+    }
+}
+@media (max-width:914px) and (max-height:412px){
+  .intro__section{
+    width:100vw;
+  }
+}
+
+/* iphone 4 duas direções */
+@media (max-width:320px) and (max-height:480px){
+    .img__group-device{
+        display: block;
+        width: 95vw;
+        margin:5% 0;
+        border-radius: 5px;
+        box-shadow: 0 5px 3px var(--cor-principal-1);
+    }
+}
+
+@media (max-width:480px) and (max-height:320px){
+    .img__group-device{
+        display: block;
+        width: 95vw;
+        margin:5% 0;
+        border-radius: 5px;
+        box-shadow: 0 5px 3px var(--cor-principal-1);
     }
 }
 

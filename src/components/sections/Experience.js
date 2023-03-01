@@ -54,7 +54,7 @@ function Experience() {
       <div className="experience__content content">
           {dropdowns.map((dropdown, index) => (
             <div className="experience__dropdown" key={index}>
-              <h2 className='dropdown-title' onClick={dropdown.function}>{dropdown.title}{dropdown.state ? <IoMdArrowDropup size="40" /> : <IoMdArrowDropdown size="40" />}</h2>
+              <h2 className='dropdown-title' onClick={dropdown.function}>{dropdown.title}{dropdown.state ? <IoMdArrowDropup className="arrow-icon" size="40" /> : <IoMdArrowDropdown size="40" className="arrow-icon" />}</h2>
 
               {dropdown.state &&(<div key={index} className="experience__dropdown-info">
                 <p>{dropdown.text}</p>
