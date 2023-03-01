@@ -1,7 +1,7 @@
 .about__work-title{
     font-size: 2rem;
-    background: linear-gradient(120deg,var(--cor-complementar-3), var(--cor-complementar-4));
-    border-radius: 0px 0 0 25px;
+    background: linear-gradient(120deg,var(--cor-complementar-3) 5%, var(--cor-complementar-4));
+    border-radius: 5px 0 0 25px;
 }
 
 .aboutWork-content{
@@ -16,12 +16,12 @@
 }
 
 .aboutWork-content > h2:first-child{
-    margin-top: 5%;
+    margin-top: 2.5%;
 }
 
 
 .aboutWork-content > p {
-    color: var(--cor-principal-6);
+    color: var(--cor-variavel-2);
     margin: 5% 0 5% 0;
     font-family: 'roboto';
     font-size: 1.2rem;
@@ -49,12 +49,6 @@
     }
 }
 
-
-@media (max-width:1368px) and (max-height:912px){
-    .about__work-title{
-       border-radius: 0;
-   }
-}
 
 @media(max-width:900px){
     .about__work-title{

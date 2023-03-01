@@ -3,7 +3,7 @@
     padding: 8px;
     margin: 1%;
     flex-wrap: wrap;
-    background-color: var(--cor-destaque-4);
+    background-color: var(--cor-variavel-4);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,7 @@
 .contactButton{
     border: none;
     cursor: pointer;
-    background-color: var(--cor-destaque-3);
+    background-color: var(--cor-variavel-4);
     color: var(--cor-branca-1);
     padding: 3%;
     border-radius: 4px;
@@ -30,7 +30,7 @@
     height:7vh;
     font-family:montserrat;
     font-size: 1.5rem;
-    box-shadow:0px 0px 5px var(--cor-destaque-3);
+    box-shadow:0px 0px 5px  var(--cor-variavel-2);
     min-width: fit-content;
     min-height: fit-content;
 }

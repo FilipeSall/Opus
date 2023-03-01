@@ -82,6 +82,9 @@ h1{
 
     --cor-dropdown-1:#188497;
     --cor-dropdown-2:#2c97aa;
+
+    --cor-contrate-principal-1: #003F63;
+    --cor-contrate-principal-2: #155f8a;
 }
 
 body{
@@ -94,17 +97,19 @@ body{
 }
 
 .emphasis-color{
-    color:var(--cor-destaque-3);
+    color:var(--cor-contrate-principal-1);
+    font-weight:bold;
 }
 
 .icon{
     color:var(--cor-branca-1);
-    font-weight:bold;
 }
 
 .container{
     width: 1000px;
     display: flex;
+    margin: 2.5px 0;
+    border-radius:5px;
 }
 
 .content{
@@ -122,7 +127,7 @@ body{
     border-radius: 5px 0 0 25px;
     min-width: 15vw;
     height: 50vh;
-    color: var(--cor-branca-1);
+    color: var(--cor-branca-absoluta);
 }
 
 .title > h1 {
@@ -169,9 +174,10 @@ body{
     }
 }
 
-@media(max-width:600px){
+@media screen and (max-width:600px){
     body{
         width: 98vw;
+        height: max-content;
     }
 }
 
