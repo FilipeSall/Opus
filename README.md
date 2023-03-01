@@ -10,10 +10,6 @@ Para desenvolver o site, utilizei a tecnologia ReactJS, que é conhecida por sua
 separei o site em containers para cada área do currículo do professor, de forma que a informação pudesse ser apresentada de maneira clara e organizada.
 O site é totalmente responsivo, adaptando-se a qualquer tipo de tela em todos os dispositivos.
 
-
-A parte inicial do site vista através de uma tela de iphone: :iphone:
-
-
 Para desenvolver o design do site, criei uma complexa paleta de cores com várias tonalidades de tons para simular as 
 cores naturais, de forma que o site pudesse transmitir a personalidade e o estilo de ensino do professor Graciliano.
 
