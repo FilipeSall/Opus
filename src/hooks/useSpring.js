@@ -16,9 +16,9 @@ function useAnimation(){
             });
         }
 
-        window.addEventListener('scroll', handleScroll, { passive: true });
+        window.addEventListener('scroll', handleScroll);
 
-        return () => window.removeEventListener('scroll', handleScroll, { passive: true });
+        return () => window.removeEventListener('scroll', handleScroll);
       }, [propsSet])
 
       return props
