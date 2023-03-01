@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.66abb1b4.css",
-    "main.js": "/static/js/main.d1adb4c2.js",
+    "main.css": "/static/css/main.ae84caf3.css",
+    "main.js": "/static/js/main.b605c730.js",
     "static/js/787.e463b3d4.chunk.js": "/static/js/787.e463b3d4.chunk.js",
     "static/media/perfil.png": "/static/media/perfil.3cdaad59b82e0ea4afc2.png",
+    "static/media/grupoMusical.png": "/static/media/grupoMusical.b3e413e89a8ad0e1ae40.png",
     "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
     "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
-    "static/media/grupoMusical.png": "/static/media/grupoMusical.3e15fb2583750c9de1b0.png",
     "static/media/Satisfy-Regular.ttf": "/static/media/Satisfy-Regular.32a6713537cf5e1e82f2.ttf",
     "index.html": "/index.html",
     "static/media/canto.svg": "/static/media/canto.7a6936af2628a36044f17f36d32e907d.svg",
@@ -14,12 +14,12 @@
     "static/media/smartphone.svg": "/static/media/smartphone.9cf9b41950733b815e6f95201597d9f1.svg",
     "static/media/aula.svg": "/static/media/aula.fd55548f8bf46f34904e1f1d792e49db.svg",
     "static/media/musicicon.svg": "/static/media/musicicon.34360772dd9181f26ee9614ebd98343f.svg",
-    "main.66abb1b4.css.map": "/static/css/main.66abb1b4.css.map",
-    "main.d1adb4c2.js.map": "/static/js/main.d1adb4c2.js.map",
+    "main.ae84caf3.css.map": "/static/css/main.ae84caf3.css.map",
+    "main.b605c730.js.map": "/static/js/main.b605c730.js.map",
     "787.e463b3d4.chunk.js.map": "/static/js/787.e463b3d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66abb1b4.css",
-    "static/js/main.d1adb4c2.js"
+    "static/css/main.ae84caf3.css",
+    "static/js/main.b605c730.js"
   ]
 }

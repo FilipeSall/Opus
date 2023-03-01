@@ -132,7 +132,9 @@
         width: 95vw;
         margin:5% 0;
         border-radius: 5px;
-        box-shadow: 0 5px 3px var(--cor-principal-1);
+        box-shadow: 0 5px 3px var(--cor-principal-6);
+        border:1px solid var(--cor-principal-4);
+        opacity:0.9;
     }
 }
 
@@ -150,7 +152,9 @@
         width: 95vw;
         margin:5% 0;
         border-radius: 5px;
-        box-shadow: 0 5px 3px var(--cor-principal-1);
+        box-shadow: 0 5px 3px var(--cor-principal-6);
+        border:1px solid var(--cor-principal-4);
+        opacity:0.9;
     }
 }
 
@@ -169,7 +173,9 @@
         width: 95vw;
         margin:5% 0;
         border-radius: 5px;
-        box-shadow: 0 5px 3px var(--cor-principal-1);
+        box-shadow: 0 5px 3px var(--cor-principal-6);
+        border:1px solid var(--cor-principal-4);
+        opacity:0.9;
     }
 }
 
@@ -180,7 +186,9 @@
         width: 95vw;
         margin:5% 0;
         border-radius: 5px;
-        box-shadow: 0 5px 3px var(--cor-principal-1);
+        box-shadow: 0 5px 3px var(--cor-principal-6);
+        border:1px solid var(--cor-principal-4);
+        opacity:0.9;
     }
 }
 @media (max-width:914px) and (max-height:412px){
@@ -196,7 +204,9 @@
         width: 95vw;
         margin:5% 0;
         border-radius: 5px;
-        box-shadow: 0 5px 3px var(--cor-principal-1);
+        box-shadow: 0 5px 3px var(--cor-principal-6);
+        border:1px solid var(--cor-principal-4);
+        opacity:0.9;
     }
 }
 
@@ -206,7 +216,8 @@
         width: 95vw;
         margin:5% 0;
         border-radius: 5px;
-        box-shadow: 0 5px 3px var(--cor-principal-1);
+        box-shadow: 0 5px 3px var(--cor-principal-6);
+        border:1px solid var(--cor-principal-4);
+        opacity:0.9;
     }
 }
-
