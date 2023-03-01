@@ -1,8 +1,8 @@
 import React from 'react';
 import './introSection.css';
-import Perfil from '../../assets/imgs/perfil.png';
+import Perfil from '../../assets/imgs/perfil.avif';
 import LinkButton from '../buttons/LinkButton';
-import grupoMusical from '../../assets/imgs/grupoMusical.png';
+import grupoMusical from '../../assets/imgs/grupoMusical.avif';
 
 
 function IntroSection() {
