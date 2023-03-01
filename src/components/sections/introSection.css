@@ -65,10 +65,11 @@
     }
     .img__group-device{
         display: block;
-        max-width: 90vw;
+        width: 90vw;
         border-radius:12px ;
         margin: 5% 0;
         border: 1px solid var(--cor-alternativa-2);
+        box-shadow: 0px 3px 5px var(--cor-branca-6) ;
     }
 
     .intro__section-title{
@@ -88,19 +89,8 @@
     .intro__section-img-container > img{
         display: none;
     }
-    .img__group-device{
-        display: block;
-        max-width: 95vw;
-        box-shadow: 3px 3px 1px var(--cor-preto-6);
-    }
+
     .intro__section-title{
         font-size: 3rem;
-    }
-    .img__group-device{
-        display: block;
-        max-width: 90vw;
-        border-radius:12px ;
-        margin: 5% 0;
-        border: 1px solid var(--cor-alternativa-2);
     }
 }

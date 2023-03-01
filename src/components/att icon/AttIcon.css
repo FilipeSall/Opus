@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 12px 0;
 }
 
 .att-icon > img {
@@ -18,54 +19,22 @@
 .att-icon > p {
     color: var(--cor-variavel-2);
     width: 100%;
-    margin: 5% 0;
+    margin: 4px 0 0 0;
     font-family: 'montserrat';
 }
 
-@media(max-width:900px){
-    .att-icon{
-        margin: 5%;
-        width: 20vw;
-        height: 20vh;
-    }
-    .att-icon > img{
+@media screen and (max-width:1000px){
+    .att-icon > img {
         width: 10vw;
     }
-
 }
 
-@media (max-width:850px) {
-    .att-icon > p {
-        font-size: 0.9rem;
-        height: 15vh;
-    }
-}
-
-@media (max-width:912px) and (max-height:1368px){
+@media screen and (max-width:650px){
     .att-icon > img {
-        width: 12vw;
-    }
-}
-
-@media(max-width:650px){
-    .att-icon > img{
-        width: 15vw;
-    }
-    .att-icon > p {
-        font-size: 0.7rem;
-        height: 10vh;
-    }
-}
-
-
-@media (max-width:400px) and (max-height:1560px){
-    .att-icon > img{
         width: 20vw;
     }
-}
-
-@media (max-width:1024px) and (max-height:600px){
-    .att-icon > img {
-        width: 15vw;
+    .att-icon > p {
+       font-size: 0.9rem;
+       height: 15vh;
     }
 }
