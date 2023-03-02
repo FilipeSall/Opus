@@ -12,9 +12,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 1%;
     justify-content: center;
 }
+
 
 .experience__dropdown:last-child{
     margin-bottom: 5%;
@@ -49,12 +49,33 @@
     animation: animeDown .3s forwards;
     transition: .3s;
     font-family: montserrat;
+    font-size: 1.3rem;
     width: 50vw;
     color: var(--cor-variavel-2);
     border-radius: 0 0 5px 5px;
-    min-height: 10vh;
+    height: 15vh;
+    min-height: fit-content;
     display: flex;
     align-items: center;
+    box-shadow: 0 3px 1px var(--cor-preto-6);
+    user-select: none;
+}
+
+.experience__dropdown-info.close-element{
+    animation: animeUp 0.15s forwards;
+    height: 0;
+    pointer-events: none;
+}
+
+@keyframes animeUp {
+    0% {
+        opacity: 1;
+        margin-top: 0;
+    }
+    100% {
+        opacity: 0;
+        margin-top: -1px;
+    }
 }
 
 @keyframes animeDown {
@@ -73,7 +94,9 @@
     .experience__dropdown-info{
         width: 95vw;
     }
-
+    .experience__dropdown-info{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width:650px) {

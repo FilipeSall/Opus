@@ -9,42 +9,42 @@ function Experience() {
   const [ministerio, setMinisterio] = useState(null);
   const [concertista, setConcertista] = useState(null);
 
-  function handleClick(state,setState){
-    setState(!state)
+  function handleClick(state, setState) {
+    setState(!state);
   }
 
   const dropdowns = [
     {
-      title:'Professor na Universidade Federal de Goiás (UFG)',
-      text:'Professor de piano e prática de Orquestra na Universidade Federal de Goiás por concurso até o ano de 1986.',
-      function:()=>handleClick(ufg,setUfg),
-      state:ufg,
+      title: "Professor na Universidade Federal de Goiás (UFG)",
+      text: "Professor de piano e prática de Orquestra na Universidade Federal de Goiás por concurso até o ano de 1986.",
+      function: () => handleClick(ufg, setUfg),
+      state: ufg,
     },
     {
-      title:'Professor de música da Escola Técnica Federal de Goias',
-      text:'Métodos didáticos utilizados nessa escola foram Dalcroze e Kodály.',
-      function:()=> handleClick(federalGoias,setFederalGoias),
-      state:federalGoias
+      title: "Professor de música da Escola Técnica Federal de Goias",
+      text: "Métodos didáticos utilizados nessa escola foram Dalcroze e Kodály.",
+      function: () => handleClick(federalGoias, setFederalGoias),
+      state: federalGoias,
     },
     {
-      title:'Regente fundador do Coral da Cidade de Goiânia',
-      text:'Regente fundador do Coral da Cidade de Goiânia à convite da Acessoria Cultural da Prefeitura de Goiânia',
-      function:()=> handleClick(regente,setRegente),
-      state:regente
+      title: "Regente fundador do Coral da Cidade de Goiânia",
+      text: "Regente fundador do Coral da Cidade de Goiânia à convite da Acessoria Cultural da Prefeitura de Goiânia",
+      function: () => handleClick(regente, setRegente),
+      state: regente,
     },
     {
-      title:'Ministério da Cultura',
-      text:'Em 1986, foi convidado para trabalhar na Secretaria de Atividades Sócio-Culturais (SEAC) do Ministério da Cultura, onde atuou como idealizador e coordenador na Coordenadoria de Cultura e Gerações',
-      function:()=> handleClick(ministerio,setMinisterio),
-      state:ministerio,
+      title: "Ministério da Cultura",
+      text: "Em 1986, foi convidado para trabalhar na Secretaria de Atividades Sócio-Culturais (SEAC) do Ministério da Cultura, onde atuou como idealizador e coordenador na Coordenadoria de Cultura e Gerações",
+      function: () => handleClick(ministerio, setMinisterio),
+      state: ministerio,
     },
     {
-      title:'Como concertista',
-      text:'Atuou como pianista e camerista, realizando concertos em vários estados do Brasil e no exterior.',
-      function:()=> handleClick(concertista,setConcertista),
-      state:concertista,
-    }
-  ]
+      title: "Como concertista",
+      text: "Atuou como pianista e camerista, realizando concertos em vários estados do Brasil e no exterior.",
+      function: () => handleClick(concertista, setConcertista),
+      state: concertista,
+    },
+  ];
 
   return (
     <section className="container" id="experiencia">
@@ -52,16 +52,36 @@ function Experience() {
         <h1>Experiência</h1>
       </div>
       <div className="experience__content content">
-          {dropdowns.map((dropdown, index) => (
-            <div className="experience__dropdown" key={index}>
-              <h2 className='dropdown-title' onClick={dropdown.function}>{dropdown.title}{dropdown.state ? <IoMdArrowDropup className="arrow-icon" size="40" /> : <IoMdArrowDropdown size="40" className="arrow-icon" />}</h2>
+        {dropdowns.map((dropdown, index) => (
+          <div className={`experience__dropdown`} key={index}>
+            <h2 className="dropdown-title" onClick={dropdown.function}>
+              {dropdown.title}
+              {dropdown.state ? (
+                <IoMdArrowDropup className="arrow-icon" size="40" />
+              ) : (
+                <IoMdArrowDropdown size="40" className="arrow-icon" />
+              )}
+            </h2>
 
-              {dropdown.state &&(<div key={index} className="experience__dropdown-info">
+            {dropdown.state !== null ? (
+              <div
+                key={index}
+                className={`experience__dropdown-info ${
+                  dropdown.state ? "" : "close-element"
+                }`}
+              >
                 <p>{dropdown.text}</p>
-              </div>)}
-
-            </div>
-          ))}
+              </div>
+            ) : (
+              <div
+                key={index}
+                className="experience__dropdown-info close-element"
+              >
+                <p>{dropdown.text}</p>
+              </div>
+            )}
+          </div>
+        ))}
       </div>
     </section>
   );
