@@ -5,7 +5,7 @@ import {} from "react-icons/bs";
 
 function Header() {
   return (
-    <header className="header__container">
+    <header className="header__container" id="header">
       <h1>Prof. Luiz Graciliano</h1>
       <section className="header__links-container">
         <LinkButton text={"Sobre a aula"} href={"#sobre-aula"} className='linkButton' />

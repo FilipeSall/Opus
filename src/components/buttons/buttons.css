@@ -1,57 +1,144 @@
-.linkButton{
-    color: var(--cor-branca-1);
-    padding: 8px;
-    margin: 1%;
-    flex-wrap: wrap;
-    background-color: var(--cor-variavel-4);
+.linkButton {
+  color: var(--cor-branca-1);
+  padding: 8px;
+  margin: 1%;
+  flex-wrap: wrap;
+  background-color: var(--cor-variavel-4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 10vw;
+  height: 6vh;
+  font-family: montserrat;
+  text-align: center;
+  min-width: fit-content;
+  min-height: fit-content;
+}
+
+.contactButton {
+  border: none;
+  cursor: pointer;
+  background-color: var(--cor-variavel-4);
+  color: var(--cor-branca-1);
+  padding: 3%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 7vh;
+  font-family: montserrat;
+  font-size: 1.5rem;
+  box-shadow: 0px 0px 5px var(--cor-variavel-2);
+  min-width: fit-content;
+  min-height: fit-content;
+}
+
+.arrow-up {
+  color: var(--cor-contrate-principal-1);
+  filter: drop-shadow(1px 2px 1px var(--cor-preto-6));
+  animation: jump 5s infinite;
+}
+
+.whats-up{
+    color: #25D366;
+    animation: jump-fast 3s infinite;
+}
+
+.super-prof{
+    animation: jump-slow 5s infinite;
+}
+
+.tooltip{
+    position: absolute;
+    margin-top: -50px;
+    width: max-content;
+    z-index: 3;
+    background-color: var(--cor-branca-1);
+    height: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px var(--cor-preto-3);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 4px;
-    width: 10vw;
-    height: 6vh;
-    font-family: montserrat;
-    text-align: center;
-    min-width: fit-content;
-    min-height: fit-content;
+    color: var(--cor-variavel-2);
 }
 
-.contactButton{
-    border: none;
-    cursor: pointer;
-    background-color: var(--cor-variavel-4);
-    color: var(--cor-branca-1);
-    padding: 3%;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 15vw;
-    height:7vh;
-    font-family:montserrat;
-    font-size: 1.5rem;
-    box-shadow:0px 0px 5px  var(--cor-variavel-2);
-    min-width: fit-content;
-    min-height: fit-content;
+.tooltip::before{
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 10px 0 0;
+    border-color: var(--cor-branca-1) transparent transparent transparent;
+    left: 10px; 
+    z-index: 4;
+    bottom: -10px;
+    filter: drop-shadow( 0 3px 3px var(--cor-preto-3));
 }
 
-@media screen and (max-width:1000px) {
-    .contactButton,
-    .linkButton{
-        height: 5vh;
-        width: 20vw;
-    }
+@keyframes jump {
+  0%,
+  20%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    animation-duration: 0.3s;
+    transform: translateY(-7px);
+  }
+  80% {
+    animation-duration: 0.2s;
+    transform: translateY(-4px);
+  }
 }
 
-@media screen and (max-width:650px) {
-    .linkButton{
-        height: 10vh;
-        width: 25vw;
-        min-width: 45vw;
+@keyframes jump-fast {
+    0%, 50%, 100% {
+      transform: translateY(0);
     }
+    25% {
+      transform: translateY(-10px);
+    }
+    75% {
+      transform: translateY(-5px);
+    }
+  }
 
-    .contactButton{
-        width: 40vw;
-        height: 10vh;
+  @keyframes jump-slow {
+    0%, 30%, 70%, 100% {
+      transform: translateY(0);
     }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+  .contactButton,
+  .linkButton {
+    height: 5vh;
+    width: 20vw;
+  }
+  .tooltip{
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .linkButton {
+    height: 10vh;
+    width: 25vw;
+    min-width: 45vw;
+  }
+
+  .contactButton {
+    width: 40vw;
+    height: 10vh;
+  }
 }
