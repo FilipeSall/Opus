@@ -55,13 +55,6 @@ function Projects() {
                         {
                             projeto.iframe && projeto.iframe
                         }
-                        {
-                           document.addEventListener('onLoad', () => {
-                           
-                                document.cookie = "cookieName=cookieValue; SameSite=None; Secure";
-                              
-                           })
-                        }
                     </animated.div>
                 ))
             }

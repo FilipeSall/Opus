@@ -1,9 +1,9 @@
 import React from 'react';
 import './buttons.css'
 
-function LinkButton({href, text, icon, className}) {
+function LinkButton({href, text, icon, className, target}) {
   return (
-    <a href={href} className={className}> {text}{icon} </a>
+    <a href={href} className={className} target={target ? target : null}> {text}{icon} </a>
   )
 }
 
