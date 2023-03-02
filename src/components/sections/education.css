@@ -1,9 +1,16 @@
 .education__title-container{
     font-size: 1.3rem;
-    background: linear-gradient(120deg,var(--cor-destaque-4), var(--cor-destaque-5));
+    background: #772d2b;
+    box-shadow: 1px 3px 2px #551917;
 }
 
 .education__content{
     background: linear-gradient(180deg,var(--cor-principal-1), var(--cor-principal-2));
 }
 
+@media screen and (max-width:1000px) {
+    .education__title-container{
+        background: #772d2b;
+        box-shadow:none
+    }
+}

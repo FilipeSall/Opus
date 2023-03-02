@@ -54,7 +54,7 @@ function Timeline() {
                 className="vertical-timeline-element--education timeline--element" 
                 icon={timeline.icon} 
                 dateClassName='date-timeline'
-                iconStyle={{ background: 'var(--cor-branca-1)', color: 'var(--cor-destaque-6)' }} >
+                iconStyle={{ background: 'var(--cor-branca-1)', color:'var(--cor-variavel-3)' }} >
                     <h3 className='timeline-title'>{timeline.title}</h3>
                     <h4 className='timeline-date'>{timeline.date}</h4>
                     <p className='timeline-local'><a href={timeline.link} className='timeline-link' target='__blank'>{timeline.subTitle}</a></p>

@@ -23,6 +23,11 @@ html{
     padding: 0;
     list-style-type: none;
     text-decoration: none;
+    letter-spacing: 1px;
+}
+
+button link {
+    letter-spacing: 0;
 }
 
 h1{
@@ -97,7 +102,7 @@ body{
 }
 
 .emphasis-color{
-    color:var(--cor-contrate-principal-1);
+    color:#CE6C47;
     font-weight:bold;
 }
 
@@ -108,7 +113,7 @@ body{
 .container{
     width: 1000px;
     display: flex;
-    margin: 10px 0;
+    margin: 15px 0;
     border-radius:0 5px 5px 5px;
     justify-self: center;
 }
@@ -118,18 +123,20 @@ body{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    box-shadow: 2px 3px 1px var(--cor-branca-3);
+    box-shadow: 3px 3px 1px var(--cor-branca-3);
+    border-radius: 5px;
 }
 
 .title{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 3px 1px var(--cor-preto-6);
-    border-radius: 5px 0 0 25px;
+    box-shadow: 1px 5px 5px var(--cor-branca-6);
+    border-radius: 5px 5px 5px 25px;
     min-width: 15vw;
     height: 50vh;
     color: var(--cor-branca-absoluta);
+    z-index: 1;
 }
 
 .title > h1 {
@@ -151,8 +158,9 @@ body{
     }
     .title{
         min-width: 25vw;
-        height: 10vh;
-        border-radius: 0;
+        height: 7vh;
+        border-radius: 0 0;
+        box-shadow:inset  0px 2px 3px var(--cor-branca-absoluta);
     }
     .content{
         width: auto;

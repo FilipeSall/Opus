@@ -17,7 +17,7 @@
 }
 
 .att-icon > p {
-    color: var(--cor-variavel-2);
+    color: var(--cor-variavel-3);
     width: 100%;
     margin: 4px 0 0 0;
     font-family: 'montserrat';
@@ -31,7 +31,7 @@
 
 @media screen and (max-width:650px){
     .att-icon > img {
-        width: 20vw;
+        width: 15vw;
     }
     .att-icon > p {
        font-size: 0.9rem;

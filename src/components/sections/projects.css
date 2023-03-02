@@ -1,6 +1,7 @@
 .projects__title-container{
     font-size: 1.3rem;
-    background: linear-gradient(120deg,var(--cor-destaque-1), var(--cor-destaque-4));
+    background: linear-gradient(120deg,var(--cor-destaque-1), var(--cor-destaque-3)80%);
+    box-shadow: 3px 5px 3px var(--cor-destaque-4);
 }
 
 .projects__title-container > h1{
@@ -30,11 +31,14 @@
 .project__info-container > h2 {
     margin: 1% 0;
     font-family:' montserrat';
+    font-size: 2rem;
 }
 
 .project__info-container > p {
     font-family:' montserrat';
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    text-align: justify;
 }
 
 .iframe{
@@ -47,6 +51,10 @@
 @media screen and (max-width:1000px) {
     .project__info-container{
         width: 95vw;
+    }
+    .projects__title-container{
+        background: var(--cor-destaque-2);
+        box-shadow: none;
     }
 }
 

@@ -1,5 +1,5 @@
 .timeline--element{
-    color: var(--cor-principal-6);
+    color: var(--cor-variavel-3);
     font-family: 'montserrat';
 }
 
@@ -8,7 +8,7 @@
 }
 
 .timeline-date{
-    color: var(--cor-principal-6);
+    color: var(--cor-variavel-5);
     font-family: 'montserrat';
     font-weight: normal;
 }

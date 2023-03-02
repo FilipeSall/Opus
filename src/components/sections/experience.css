@@ -1,6 +1,6 @@
 .experience__title-container{
     font-size: 1.3rem;
-    background: linear-gradient(120deg,var(--cor-variavel-4), var(--cor-variavel-5));
+    background: #30323D;
 }
 
 .experience__content{
@@ -96,6 +96,10 @@
     }
     .experience__dropdown-info{
         font-size: 1rem;
+    }
+    .experience__title-container{
+        background:#30323D;
+        box-shadow: none;
     }
 }
 

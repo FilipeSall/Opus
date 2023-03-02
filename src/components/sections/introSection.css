@@ -2,7 +2,7 @@
     display: flex;
     width: 1000px;
     height: 90vh;
-    background-color: var(--cor-alternativa-2);
+    background-color: var(--cor-alternativa-2); 
     align-items: center;
     padding: 1%;
     margin-bottom: 1px;
@@ -11,7 +11,7 @@
 }
 
 .intro__section-emphashis{
-    color:#003F63 ;
+    color:#CE6C47;
     font-weight: bold;
 }
 
@@ -30,7 +30,7 @@
 .intro__section-title{
     font-family: montserrat, Georgia, 'Times New Roman', Times, serif;
     font-size: 5rem;
-    color: var(--cor-variavel-2);
+    color: #00120B;
     letter-spacing: -4px;
     z-index: 5;
     position: relative;
@@ -40,8 +40,10 @@
 .intro__section-text{
     font-size: 1.2rem;
     font-family: roboto, sans-serif;
-    color: var(--cor-variavel-2);
+    color: #00120B;
     margin: 5% 5% 10% 0;
+    text-align: justify;
+    letter-spacing: 0;
 }
 
 .img__group-device{
@@ -93,5 +95,10 @@
 
     .intro__section-title{
         font-size: 3rem;
+    }
+    .intro__section-text{
+        text-align: justify;
+        text-justify:newspaper;
+        
     }
 }

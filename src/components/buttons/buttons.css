@@ -30,7 +30,7 @@
   height: 7vh;
   font-family: montserrat;
   font-size: 1.5rem;
-  box-shadow: 0px 0px 5px var(--cor-variavel-2);
+  box-shadow: 0px 1px 5px var(--cor-variavel-3);
   min-width: fit-content;
   min-height: fit-content;
 }
@@ -48,34 +48,6 @@
 
 .super-prof{
     animation: jump-slow 5s infinite;
-}
-
-.tooltip{
-    position: absolute;
-    margin-top: -50px;
-    width: max-content;
-    z-index: 3;
-    background-color: var(--cor-branca-1);
-    height: max-content;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 3px 3px var(--cor-preto-3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--cor-variavel-2);
-}
-
-.tooltip::before{
-    content: "";
-    position: absolute;
-    border-style: solid;
-    border-width: 10px 10px 0 0;
-    border-color: var(--cor-branca-1) transparent transparent transparent;
-    left: 10px; 
-    z-index: 4;
-    bottom: -10px;
-    filter: drop-shadow( 0 3px 3px var(--cor-preto-3));
 }
 
 @keyframes jump {
@@ -132,9 +104,9 @@
 
 @media screen and (max-width: 650px) {
   .linkButton {
-    height: 10vh;
-    width: 25vw;
+    width: 20vw;
     min-width: 45vw;
+    height: 7vh;
   }
 
   .contactButton {

@@ -1,6 +1,7 @@
 .about__work-title{
     font-size: 2rem;
-    background: linear-gradient(120deg,var(--cor-complementar-3) 5%, var(--cor-complementar-4));
+    background: #739E82;
+    box-shadow: 1px 3px 2px #568365;
 }
 
 .aboutWork-content{
@@ -9,7 +10,7 @@
 }
 
 .aboutWork-content > h2{
-    color: var(--cor-complementar-1);
+    color: var(--cor-variavel-3);
     font-family: 'montserrat';
     font-size: 1.5rem;
 }
@@ -20,7 +21,7 @@
 
 
 .aboutWork-content > p {
-    color: var(--cor-variavel-2);
+    color: var(--cor-variavel-3);
     margin: 5% 0 5% 0;
     font-family: 'roboto';
     font-size: 1.2rem;
@@ -36,9 +37,20 @@
     gap: 20px;
 }
 
+@media screen and (max-width:1000px){
+    .about__work-title{
+        background: #4d2239 ;
+        box-shadow: none;
+    }
+}
+
 @media screen and (max-width:650px) {
     .icon__container{
         height: 60vh;
         gap: 20px;
+    }
+
+    .about__work-title{
+        font-size: 1.5rem;
     }
 }
