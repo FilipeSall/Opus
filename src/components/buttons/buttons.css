@@ -36,8 +36,8 @@
 }
 
 .arrow-up {
-  color: var(--cor-contrate-principal-1);
-  filter: drop-shadow(1px 2px 1px var(--cor-preto-6));
+  color: var(--cor-preto-3);
+  filter: drop-shadow(1px 2px 1px var(--cor-preto-1));
   animation: jump 5s infinite;
 }
 
@@ -48,6 +48,12 @@
 
 .super-prof{
     animation: jump-slow 5s infinite;
+}
+
+.phone-up{
+    color: var(--cor-variavel-2);
+    animation: jump 5s infinite;
+    filter: drop-shadow(1px 2px 1px var(--cor-preto-1));
 }
 
 @keyframes jump {

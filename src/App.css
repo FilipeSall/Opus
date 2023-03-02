@@ -143,14 +143,6 @@ body{
     font-family: 'montserrat';
 }
 
-.arrow-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--cor-branca-1);
-    position: relative;
-}
-
 @media screen and (max-width:1000px){
     .container{
         width: 100vw;

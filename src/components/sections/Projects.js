@@ -3,6 +3,7 @@ import './projects.css';
 import useSpring from '../../hooks/useSpring';
 import { animated } from '@react-spring/web';
 
+
 function Projects() {
 
     const projetos = [
