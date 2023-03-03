@@ -124,7 +124,7 @@ body{
     justify-content: center;
     width: 100%;
     box-shadow: 3px 3px 1px var(--cor-branca-3);
-    border-radius: 5px;
+    border-radius: 0 5px 5px 5px;
 }
 
 .title{

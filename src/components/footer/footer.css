@@ -17,8 +17,8 @@
     margin-bottom: 25px;
     gap: 15%;
     background: #24262b;
-    border-radius: 5px;
     box-shadow: 1px 3px 3px var(--cor-preto-5);
+    border-radius: 5px;
 }
 
 
@@ -53,5 +53,6 @@
 @media screen and (max-width:650px){
     .footer__container-infos{
         flex-direction: column;
+        border-radius: 0;
     }
 }

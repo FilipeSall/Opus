@@ -84,9 +84,10 @@
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:650px){
     .intro__section{
         height: fit-content;
+        text-align: left;
     }
 
     .intro__section-img-container > img{
@@ -95,10 +96,5 @@
 
     .intro__section-title{
         font-size: 3rem;
-    }
-    .intro__section-text{
-        text-align: justify;
-        text-justify:newspaper;
-        
     }
 }

@@ -5,7 +5,7 @@
 }
 
 .education__content{
-    background: linear-gradient(180deg,var(--cor-principal-1), var(--cor-principal-2));
+    background: linear-gradient(180deg,var(--cor-principal-1), var(--cor-principal-2)); 
 }
 
 @media screen and (max-width:1000px) {
