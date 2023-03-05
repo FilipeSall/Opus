@@ -6,11 +6,12 @@ import grupoMusical from '../../assets/imgs/grupoMusical.avif';
 
 
 function IntroSection() {
+
   return (
     <section className='intro__section'>   
-        <div className='intro__section-img-container'>
-            <img src={Perfil} alt='Foto de Luiz' />
-        </div>
+        <picture className='intro__section-img-container'>
+          <img type='image/avif' src={Perfil} alt='Foto de Luiz Graciliano'/>
+        </picture>
         <div className='intro__section-text-container' id='sobre-luiz'>
             <h1 className='intro__section-title'><span className='intro__section-emphashis'>Olá</span>, <br/>eu sou Luiz<br/>Graciliano<span className='emphasis-color'>.</span></h1>
             <img src={grupoMusical} alt='grupo musical' className='img__group-device' />

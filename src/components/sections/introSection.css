@@ -8,6 +8,7 @@
     margin-bottom: 1px;
     border-radius: 4px;
     box-shadow: 2px 3px 1px var(--cor-branca-3);
+    min-height: fit-content;
 }
 
 .intro__section-emphashis{

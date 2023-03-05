@@ -1,6 +1,6 @@
 .header__container{
     width: 1000px;
-    max-height: max-content;
+    min-height: fit-content;
     background-color: var(--cor-principal-1);
     display: flex;
     align-items: center;

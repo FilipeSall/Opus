@@ -143,6 +143,7 @@ body{
     font-family: 'montserrat';
 }
 
+
 @media screen and (max-width:1000px){
     .container{
         width: 100vw;
