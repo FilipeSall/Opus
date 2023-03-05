@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import './projects.css';
 import useSpring from '../../hooks/useSpring';
 import { animated } from '@react-spring/web';
-
+import chorinho from '../../assets/sounds/chorinho.mp3';
+import { BsFillPlayFill } from "react-icons/bs";
 
 function Projects() {
+
+    const [audio, setAudio] = useState(null);
+    const audioControlRef = useRef(null);
+
+    const handlePlay = () => {
+        if (!audio) {
+          const audioElement = new Audio(chorinho);
+          setAudio(audioElement);
+        }
+        setTimeout(() => {
+            audioControlRef.current.play();
+        }, 100);
+      }
 
     const projetos = [
         {
@@ -21,6 +35,14 @@ function Projects() {
                 frameBorder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
             </iframe>,
+        },
+        {
+            title:'Chorinho da Josi',
+            text:"Este é um chorinho composto, gravado e produzido por Luiz Graciliano, com o objetivo de animar sua filha durante um período em que ela estava doente com rubéola durante as férias. Por meio da música, o artista busca transmitir uma atmosfera alegre e nostálgica, evocando elementos característicos de uma época passada, para trazer conforto e alegria para sua filha em um momento difícil.",
+            sound:
+            <audio controls autoPlay className='chorinho'>
+                <source src={chorinho} ref={audioControlRef} type="audio/mpeg" />
+            </audio>,
         }
         ,{
             title:'Projeto Intercâmbio',
@@ -55,6 +77,15 @@ function Projects() {
                         <p>{projeto.text}</p>
                         {
                             projeto.iframe && projeto.iframe
+                        }
+                        {
+                            projeto.sound && <div className='container__chorinho'>
+                                {audio === null && <button className='play-btn'
+                                onClick={handlePlay}>
+                                    {<BsFillPlayFill size={60}color='#292626' />}
+                                    </button>}
+                                {audio && projeto.sound}
+                            </div>
                         }
                     </animated.div>
                 ))
