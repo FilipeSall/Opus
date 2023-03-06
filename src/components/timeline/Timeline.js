@@ -5,10 +5,16 @@ import 'react-vertical-timeline-component/style.min.css';
 import { TbSchool, TbMicroscope } from "react-icons/tb";
 import { BsFillPersonFill, BsAwardFill } from "react-icons/bs";
 import { GiGrandPiano } from "react-icons/gi";
-
+import { FaSchool } from "react-icons/fa";
 
 function Timeline() {
     const timeline = [
+        {
+            title:'Escola nacional de música da Universidade do Rio de Janeiro',
+            subTitle:'Professora Yara Camarinha e Cleofe Person de Matos',
+            date:'1964 - 1968',
+            icon:<FaSchool />
+        },
         {
             title:'Curso superior de música - Instituto superior de artes da UFG',
             subTitle:'Professora Belkiss S. Carneiro de Mendonça',
@@ -58,7 +64,6 @@ function Timeline() {
                     <h3 className='timeline-title'>{timeline.title}</h3>
                     <h4 className='timeline-date'>{timeline.date}</h4>
                     <p className='timeline-local'><a href={timeline.link} className='timeline-link' target='__blank'>{timeline.subTitle}</a></p>
-
                 </VerticalTimelineElement>
             ))
         }

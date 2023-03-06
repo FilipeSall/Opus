@@ -14,10 +14,9 @@ function Projects() {
         if (!audio) {
           const audioElement = new Audio(chorinho);
           setAudio(audioElement);
+        } else{
+            return
         }
-        setTimeout(() => {
-            audioControlRef.current.play();
-        }, 100);
       }
 
     const projetos = [

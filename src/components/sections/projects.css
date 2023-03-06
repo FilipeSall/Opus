@@ -86,9 +86,6 @@
     }
   }
 
-@keyframes moveInRight {
-
-}
 
 @media screen and (max-width:1000px) {
     .project__info-container{
@@ -98,6 +95,10 @@
         background: var(--cor-destaque-2);
         box-shadow: none;
     }
+    .chorinho{
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width:650px) {
