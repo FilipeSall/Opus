@@ -22,7 +22,7 @@ function AboutWorkSection() {
       <div className="aboutWork-content content">
         <h2>Como funcionam as minhas aulas</h2>
         <p>
-        As aulas são regulares, com frequência semanal. O acompanhamento é realizado por meio do WhatsApp para monitorar a prática e o progresso do aluno. As aulas podem ser ministradas na residência do professor ou do aluno, desde que este último possua os instrumentos necessários.
+        Oferecemos aulas regulares, que podem ser presenciais ou online com frequência semanal. Para monitorar o progresso do aluno, fornecemos acompanhamento via WhatsApp. As aulas podem ser ministradas na residência do professor ou do aluno, contanto que este último possua os instrumentos necessários.
         </p>
         <animated.div className="icon__container" style={props}>
           <AttIcon src={Piano} text="Aulas de piano e teclado" />
