@@ -1,8 +1,6 @@
 .footer__container{
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    color: var(--cor-branca-absoluta);
+    color: var(--cor-preta);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -16,8 +14,6 @@
     justify-content: center;
     margin-bottom: 25px;
     gap: 15%;
-    background: #24262b;
-    box-shadow: 1px 3px 3px var(--cor-preto-5);
     border-radius: 5px;
 }
 
@@ -31,7 +27,7 @@
 
 .container-info > p {
     margin: 5px 0 10px 0;
-    color: var(--cor-branca-5);
+    color: var(--cor-preta);
 }
 
 .icons__footer-container{
